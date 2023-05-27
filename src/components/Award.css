@@ -1,0 +1,57 @@
+.kart-bg{
+    background-color: #0e1523;
+}
+.kart{
+    width: 362px;
+    padding:47px 30px 30px ;
+    /* margin-right: 25px; */
+    transition:all 1s ease ;
+}
+.kart:hover{
+    box-shadow: 10px 15px 25px #273c75;
+    transform: translatey(14px);
+}
+.kart h3{
+    font-size: 20px;
+    text-align:center ;
+}
+.kart img{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 47px;
+}
+.kart p{
+    text-align: center;
+    color: #fff;
+    opacity: .7;
+}
+@media(max-width:830px){
+    .kart{
+        width: 600px;
+    }
+
+}
+@media(max-width:700px){
+    .kart{
+        width: 400px;
+    }
+     .kart img{
+width: 75px;
+height: 85px;
+    }
+}
+@media(max-width:500px){
+    .kart{
+        width: 300px;
+    }
+}
+@media(max-width:410px){
+    .kart{
+        width: 250px;
+    }
+    .kart img{
+width: 70px;
+height: 80px;
+    }
+}
+

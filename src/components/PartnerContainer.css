@@ -1,0 +1,48 @@
+.sirketlerHissesi{
+    background-color:#08101d ;
+    padding-top: 50px;
+}
+.sirketlerHissesi img{
+    width: 100%;
+}
+@media(min-width:1200px){
+   .sirketlerHissesi{
+    padding: 80px 250px 0 250px;
+   }
+}
+.sirketinLogosu{
+    width:150px !important;
+}
+.sirket{
+    
+    background-color: #08101d;
+}
+@media(max-width:500px){
+    .sirketinLogosu{
+        width:100px !important;
+    }
+    .sirketlerHissesi{
+        padding-top: 30px;
+
+    }
+}
+@media(max-width:1200px){
+    .sirketlerHissesi{
+        padding-left: 70px;
+    }
+}
+@media(max-width:770px){
+    .sirketlerHissesi{
+        padding-left: 100px;
+    }
+}
+@media(max-width:600px){
+    .sirketlerHissesi{
+        padding-left: 80px;
+    }
+}
+@media(max-width:450px){
+    .sirketlerHissesi{
+        padding-left: 60px;
+    }
+}

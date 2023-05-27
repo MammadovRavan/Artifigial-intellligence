@@ -1,0 +1,85 @@
+@media(min-width:1400px){
+    .navbar{
+        background-color: #0A121F;
+        padding: 0 250px;
+    }
+}
+.navbar{
+    background-color: #0A121F;
+
+}
+@media(min-width:1000px){
+    .navbar{
+        padding: 0 150px;
+    }
+}
+@media(max-width:1100px){
+    .navbar{
+        padding: 0 100px;
+    }
+}
+@media(max-width:800px){
+    .navbar{
+        padding: 0 10px;
+    }
+    .container-fluid img{
+        width: 200px;
+    }
+}
+
+
+.collapse a{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: pointer;
+}
+.bars-icon{
+    color: #fff;
+    pointer-events: none;
+}
+.navbar-toggler{
+  width: 40px;
+   height:30px;
+ 
+}
+
+ .overlay{
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0,0,0,.8);
+    width: 0;
+    overflow-x: hidden;
+    z-index: 3;
+    transition: 1s ease;
+ }
+ .overlay> .cross-icon{
+    position: absolute;
+    top: 45px;
+    right: 45px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 44px;
+ }
+ .overlay> .nav-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+ }
+ .nav-links a{
+    text-decoration: none;
+    font-size: 34px;
+    color: #666;
+    cursor: pointer;
+    transition: .7s ease;
+ }
+ .nav-links a:hover{
+    color: #fff;
+ }
+ .aktiv{
+    width: 100%;
+ }

@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
+// {} obyektin parcalanmasi
+import { Fragment } from 'react';
+import Navbar from './components/Navbar';
+import Introduction from './components/Introduction';
+import PartnerContainer from './components/PartnerContainer';
+import PartnerCompany from './components/PartnerCompany';
+import Apply from './components/Apply';
+import AwardsContainer from './components/AwardsContainer';
+import Awesome from './components/Awesome';
+import Footer from './components/Footer';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<Fragment>
+  <Navbar/>
+  <Introduction/>
+<PartnerContainer/>
+<PartnerCompany/>
+<Apply/>
+<AwardsContainer/>
+<Awesome/>
+<Footer/>
+</Fragment>
   );
 }
 
