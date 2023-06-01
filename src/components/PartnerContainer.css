@@ -46,3 +46,9 @@
         padding-left: 60px;
     }
 }
+@media(max-width:358px){
+    .sirketlerHissesi{
+        padding-left: 115px;
+
+    }
+}

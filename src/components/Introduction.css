@@ -44,6 +44,7 @@ color: #fff;
      }
      .intro-right-side{
         align-items: center;
+        padding-top: 20px;
     }
 }
 @media(max-width:1010px){
@@ -70,6 +71,7 @@ color: #fff;
      
 .intro-right-side{
     align-items: center;
+    padding-top: 19px;
 }
 }
 @media(max-width:500px){
@@ -92,16 +94,37 @@ color: #fff;
     .intro-right-side{
        padding-left: 50px;
         width: 300px !important;
+        padding-top: 18px;
     }
 }
 @media(max-width:420px){
     .intro-right-side{
         padding-left: 20px;
+        padding-top: 17px;
          
      } 
      .intro-left-side{
         min-width:300px !important ;
      }
+.button-groups button{
+    width: 110px;
+    height: 40px;
+    font-size:14px ;
+}
+}
+@media(max-width:355px){
+    .intro-left-side{
+        min-width:250px !important ;
+     }
+  .intro-right-side{
+    width: 250px;
+    padding-top: 15px;
+  }
+  .intro-right-side img{
+    width: 250px;
+    height: 250px;
+  }
+
 }
 
 

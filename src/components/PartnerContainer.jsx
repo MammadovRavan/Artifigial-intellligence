@@ -13,6 +13,10 @@ const PartnerContainer = () => {
         slidesPerView={3}
         spaceBetween={30}
         breakpoints={{
+          300: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
           360: {
             slidesPerView: 2,
             spaceBetween: 20,

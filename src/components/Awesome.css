@@ -98,6 +98,21 @@
      }
      .left-side{
         width: 300px;
-        min-width: 300px;
+        min-width: 250px;
     }
+}
+@media(max-width:358px){
+    .left-side h3{
+        font-size: 26px;
+    }
+    .left-side p{
+        font-size: 13px;
+    }
+    .right-side{
+        width: 250px;
+     }  
+     .right-side img{
+        width: 250px;
+        height: 250px;
+     }
 }

@@ -26,7 +26,11 @@
         width: 200px;
     }
 }
-
+@media(max-width:500px){
+    .container-fluid img{
+        width: 150px;
+    }
+}
 
 .collapse a{
     font-family: 'Open Sans';

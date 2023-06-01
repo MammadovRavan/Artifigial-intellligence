@@ -21,7 +21,7 @@ const Introduction = () => {
                 </Typed>
                 <p>Lorem ipsum is placeholder text commonly used in the graphic,<br/> print, and publishing industries for previewing layouts and <br/> visual mockups.</p>
                 <div className="button-groups">
-                   <Button butonunIcindekiDeyer="Get started" klassAdi="Sign-in margin-right" />
+                   <Button butonunIcindekiDeyer="Get started" klassAdi="Sign-in margin-right" className='btnn'/>
                    <Button butonunIcindekiDeyer="Watch video" klassAdi="Sign-in" icon={true}/>
                 </div>
             </div>
