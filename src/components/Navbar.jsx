@@ -45,7 +45,7 @@ if(e.target.classList.contains('menyunuAc')){
                 <a className="nav-link text-white" aria-current="page" href="#">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">About</a>
+                <a className="nav-link text-white" href="About.jsx">About</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link text-white ">Services</a>
