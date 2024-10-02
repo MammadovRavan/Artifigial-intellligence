@@ -14,18 +14,22 @@ import Footer from './components/Footer';
 
 
 
+
 function App() {
   return (
-<Fragment>
-  <Navbar/>
-  <Introduction/>
-<PartnerContainer/>
-<PartnerCompany/>
-<Apply/>
-<AwardsContainer/>
-<Awesome/>
-<Footer/>
-</Fragment>
+    <Fragment>
+      <Navbar />
+      <Introduction />
+      <PartnerContainer />
+      <PartnerCompany />
+      <Apply />
+      <AwardsContainer />
+      <Awesome />
+      <Footer />
+ 
+
+
+    </Fragment>
   );
 }
 
