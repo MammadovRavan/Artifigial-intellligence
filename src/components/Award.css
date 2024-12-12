@@ -11,6 +11,22 @@
     box-shadow: 10px 15px 25px #273c75;
     transform: translatey(14px);
 }
+.kart:hover{
+    box-shadow: 10px 15px 25px #7f9ff5;
+    transform: translatey(14px);
+}
+.kart:hover{
+    box-shadow: 10px 15px 25px #ff0000;
+    transform: translatey(14px);
+}
+.kart:hover{
+    box-shadow: 10px 15px 25px #1fff06;
+    transform: translatey(14px);
+}
+.kart:hover{
+    box-shadow: 10px 15px 25px #d0ff00;
+    transform: translatey(14px);
+}
 .kart h3{
     font-size: 20px;
     text-align:center ;

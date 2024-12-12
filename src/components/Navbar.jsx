@@ -5,6 +5,8 @@ import Button from './Button'
 import logo from '../assets/images/logo.svg'
 import { AiOutlineBars } from "react-icons/ai";
 import { GiCrossedSwords } from "react-icons/gi";
+// import About from './About'
+// import Contact from './Contact'
 const Navbar = () => {
 const overlayinRefi=useRef()
 // overlayinRefi.current
@@ -25,11 +27,7 @@ if(e.target.classList.contains('menyunuAc')){
         {/* <button className='cross-icon'></button> */}
         <GiCrossedSwords  className='cross-icon'onClick={menyuBagla}/>
         <div className="nav-links">
-          <a href=''>Home</a>
-          <a href=''>About</a>
-          <a href=''>Services</a>
-          <a href=''>Blog</a>
-          <a href='mailto:rvanm15@gmail.com'>Contact</a>
+         
         </div>
       </div>
       <div> <nav className="navbar navbar-expand-lg ">
@@ -39,31 +37,16 @@ if(e.target.classList.contains('menyunuAc')){
             <AiOutlineBars className='bars-icon' />
 
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link text-white" aria-current="page" href="#">Home</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-white" href="#">About</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-white ">Services</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-white">Blog</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-white">Contact</a>
-              </li>
-            </ul>
+          {/* <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          
             <Button butonunIcindekiDeyer="Sign in" klassAdi="Sign-in"/>
 
 
 
-          </div>
+          </div> */}
         </div>
-      </nav></div>
+      </nav>
+      </div>
     </>
 
   )

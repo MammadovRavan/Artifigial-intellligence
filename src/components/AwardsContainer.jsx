@@ -18,7 +18,7 @@ const AwardsContainer = () => {
           }}
           modules={[Autoplay]}
         breakpoints={{
-            320: {
+            360: {
               slidesPerView: 1,
               spaceBetween: 20,
             },
